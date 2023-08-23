@@ -1,5 +1,5 @@
 import mysql.connector as sql
-mycon=sql.connect(host='localhost',user='root',passwd='thaaru',database='Project')
+mycon=sql.connect(host='localhost',user='root',passwd='****',database='Project')
 cursor=mycon.cursor()
 def Add_records():
     a=input("Enter the Customer's Name:")
