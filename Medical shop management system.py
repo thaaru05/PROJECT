@@ -1,6 +1,6 @@
 import mysql.connector as sql
 # establishing a connection with the project database
-mycon=sql.connect(host="localhost",user="root",passwd="thaaru",database="Project")
+mycon=sql.connect(host="localhost",user="root",passwd="******",database="Project")
 if mycon.is_connected()==False:
  print('Error connecting to MySQL database')
 cursor=mycon.cursor()
